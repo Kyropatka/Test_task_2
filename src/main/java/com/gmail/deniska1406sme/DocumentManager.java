@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
  */
 public class DocumentManager {
 
-    Map<String, Document> storage = new HashMap<>();
+    private Map<String, Document> storage = new HashMap<>();
 
     /**
      * Implementation of this method should upsert the document to your storage
